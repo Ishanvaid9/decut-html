@@ -1,0 +1,200 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html{overflow-y:hidden;}
+body {
+     background-image: url("https://images.pexels.com/photos/403575/pexels-photo-403575.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+	 background-position: fixed;
+	 background-repeat:no-repeat;
+	 background-size:cover;
+	  margin: 0;
+	  font-family: Arial, Helvetica, sans-serif;
+	  }
+.navigation1
+        {
+		 background-color: #010103;
+		 opacity:0.7;
+		}
+.navigation1 a
+        {
+		 float: left;
+		 color: white ;
+		 text-align: center;
+		 padding: 20px 14px;
+		 text-decoration: none;
+		 font-size: 17px;
+		 }
+.navigation1 a:hover
+		 {
+		 background-color: grey;
+		 opacity: 0.5;
+		
+		 }
+		 
+body 
+    {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0 8px;
+	margin-left: 82%;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+    opacity: 0.9;
+   border-radius:4px;
+	}
+
+button:hover {
+    opacity:0.5;
+}
+/* Style the horizontal ruler */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+ 
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+.remember1{
+     font-color: white;
+	 text-align: left;
+        }
+.remember{
+        margin-top:11px;
+		}
+
+@media screen and (max-width: 600px) {
+    .col-25,input[type=submit] {
+        height: 80%;
+        padding: 11px 15px;
+    }
+}
+.text{
+     margin-top:5px;
+     }
+#details{
+	     height : 190px;
+		 opacity:0.5;
+		 padding: 11px 15px;
+		 width:70%;
+		 margin: 9px 0;
+		 display: inline-block;
+		 border: 1px solid #ccc;
+		 box-sizing: border-box;
+}
+.signupbtn{
+   margin-left:-0px;
+			}
+	.sidebar{
+		border-radius:5px;
+		top: 292px;
+		left:-369px;
+		font-color:white;
+	    position: relative; /* Stay in place */
+		z-index:0; /* Sit on top */
+		width:816; /* Full width */
+		height: 565px; /* Full height */
+		background-color: rgb(23, 22, 43); /* Fallback color */
+		
+		padding-top: 30px;
+		bottom:30px;
+		padding-right: 50px;
+		padding-left:15px;
+		border-radius:10px;}
+		
+.sideheader{
+         background-color: rgb(23, 22, 43); /* Fallback color */
+		background-color: rgba(0, 0, 4, 0.5);
+		 color:white;
+		 font-size: 14.5px;
+		 font-family:Comic Sans MS;	
+		margin-right:240;
+		margin-left:28.4%;	
+		padding:10px;
+margin-top:30px;
+margin-bottom:-40px;	
+
+	}
+.sidetext{
+        color:white;
+			}
+.sidetext3{
+         paddin:0px;
+		 margin-top:-10px;	}			
+
+ li.sidetext {  font-size: 18px;
+    font-family: Comic Sans MS;
+    color: white;
+    margin-left: 60px;
+    margin-right: 20px;
+    
+	}
+li	{
+    text-align:justify;
+			}
+div.ex3 {
+   overflow-x:hidden;
+   margin-top:40px;
+   margin-left:310px;
+   height: 450px;
+   overflow: auto;
+   position:fixed;
+	}
+	
+</style>
+</head>
+<body>
+<div class="navigation1" >
+ <a href="#"style="background-color:green;border-radius:4px;">Home</a>
+ <a href="file:///C:/Users/simran/Desktop/delivery/delivery/decut/templates/aboutpage.html"style="background-color:green;margin-left:2px;border-radius:4px;">Help</a>
+ <button  onclick="pageRedirect()" style="width:auto;">Login</button>
+ </div>
+<center>
+<header class="sideheader">History/Details</header>
+<div class="ex3">
+<div class="sidebar" style="margin-left:56%;margin-top:-39.5%;">
+
+
+<ol class="sidetext"><li># You assign 20 packages to E-kart For 18/11/2018</li>
+<li># You assign 3 packages to Bluedart For 28/11/2018</li>
+<li># You assign 19 packages E-kart For 24/11/2018</li>
+</ol>
+</div>
+</div>
+
+   
+</center>
+</body>
+<script >
+var modal= document.getElementById('id01');
+window.onclick = function(event) {
+     if (event.target == modal) {
+         modal.style.display = "none";
+    }
+}
+
+</script>
+<script>
+function pageRedirect() {
+    window.location.href="file:///C:/Users/simran/Desktop/delivery/delivery/decut/templates/decut.html";
+
+	}
+	</script>
+</html>

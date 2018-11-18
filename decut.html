@@ -1,0 +1,51 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="dashboard.css">
+
+</head>
+<body>
+<div class="navigation">
+
+ <a href="#"  style="background-color:green;border-radius:4px;">Home</a>
+ <a href="file:///C:/Users/simran/Desktop/delivery/delivery/decut/templates/aboutpage.html" style="background-color:green;border-radius:4px;margin-left:2px;padding:-10px;">About</a>
+ <a  class="sl"  href="signup2.html">Signup</a>
+ <button  style="width:auto;">help</button>
+ </div>
+ 
+ <div id="login" class="loginclass">
+
+    <form  class="loginclass-content animate" >
+	 <div class="imgcontainer">
+	 <p class="firstext"style="color: #4CAF50;" >Welcome to Login page</p>
+		  <span onclick="document.getElementById('login').style.display='none'" class="close" title="Close Modal">&times;</span>
+		
+     </div>
+	
+	<div class="label">
+	   
+	   <label for="uname"><b class="remember">Username</b></label>
+	   <input type="text" placeholder="Enter your username" name="uname" required>
+	   <label for="psw"><b class="remember" >Password</b></label>
+	   <input type="password" placeholder="Enter password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" name="psw"required>
+	   <label class="remember">
+	   <input type="checkbox" checked="checked" name="remember">Remember me
+	   </label>
+	   <button type type="submit">Login</button>
+	  </div>
+	 </form>
+ </div>
+	 
+ <script>
+
+  	
+ // When the user clicks anywhere outside of the modal, close it
+	window.onclick = function(event) {
+     if (event.target == loginclass) {
+         loginclass.style.display = "none";
+    }
+}
+ </script>
+ </body>
+</html>
